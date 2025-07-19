@@ -361,3 +361,12 @@ MigrationBackup/
 
 # Fody - auto-generated XML schema
 FodyWeavers.xsd
+
+# pytest cache
+.pytest_cache/
+
+# Visual Studio Code settings
+.vscode/
+
+# Conda environment
+.conda
