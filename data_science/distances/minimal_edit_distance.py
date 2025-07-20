@@ -1,6 +1,6 @@
 
 class MinimalEditDistance:
-    def __init__(self, deletion_cost, insertion_cost, substitution_cost):
+    def __init__(self, deletion_cost=1, insertion_cost=1, substitution_cost=2):
         self.deletion_cost = deletion_cost
         self.insertion_cost = insertion_cost
         self.substitution_cost = substitution_cost
